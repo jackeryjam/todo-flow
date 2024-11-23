@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项 PWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2196f3">
+</head>
+<body>
+    <div class="container">
+        <h1>待办事项</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="添加新的待办事项...">
+            <button type="submit">添加</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="app.js"></script>
+    <script src="sw.js"></script>
+</body>
+</html> 
