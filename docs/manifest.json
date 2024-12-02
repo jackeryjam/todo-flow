@@ -6,6 +6,27 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
+  "cache_resources": {
+    "strategy": "local-first",
+    "urls": [
+      "/todo-flow/",
+      "/todo-flow/index.html",
+      "/todo-flow/manifest.json",
+      "/todo-flow/assets/*",
+      "https://jackeryjam.github.io/todo-flow/*"
+    ],
+    "static": {
+      "maxAge": 2592000,  // 30天
+      "files": [
+        ".js",
+        ".css",
+        ".png",
+        ".jpg",
+        ".svg",
+        ".ico"
+      ]
+    }
+  },
   "icons": [
     {
       "src": "logo.png",
