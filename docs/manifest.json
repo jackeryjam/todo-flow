@@ -16,7 +16,7 @@
       "https://jackeryjam.github.io/todo-flow/*"
     ],
     "static": {
-      "maxAge": 2592000,  // 30天
+      "maxAge": 2592000,
       "files": [
         ".js",
         ".css",
